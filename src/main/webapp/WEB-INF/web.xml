@@ -1,0 +1,37 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+    <servlet>
+        <servlet-name>Credit</servlet-name>
+        <servlet-class>controllers.CreditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Credit</servlet-name>
+        <url-pattern>/credit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Depense</servlet-name>
+        <servlet-class>controllers.DepenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Depense</servlet-name>
+        <url-pattern>/depense</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>FormCredit</servlet-name>
+        <servlet-class>controllers.FormCredit</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormCredit</servlet-name>
+        <url-pattern>/formcredit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormDepense</servlet-name>
+        <servlet-class>controllers.FormDepense</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormDepense</servlet-name>
+        <url-pattern>/formdepense</url-pattern>
+    </servlet-mapping>
+</web-app>
